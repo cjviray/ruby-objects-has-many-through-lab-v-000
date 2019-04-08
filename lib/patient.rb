@@ -30,9 +30,9 @@ class Patient
   end 
   
   
-  def doctors
+  def patients
     appointments.collect do |a|
-      a.doctor
+      a.patients
     end 
   end 
     
